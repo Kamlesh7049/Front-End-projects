@@ -104,6 +104,8 @@ header {
 
 }
 /* HERO */
+
+
 #hero {
     height: calc(100vh-60px);
     display: flex;
@@ -119,20 +121,28 @@ header {
     margin-bottom: 1rem;
 }
 /* RESPONSIVE DESIGN */
-@media(max-width:992px) {
+
+
+@media(max-width:992px) 
+{
       .navbar .links,
-      .navbar .action_btn {
+      .navbar .action_btn 
+      {
         display: none;
       }
-    .navbar .toggle_btn {
+    .navbar .toggle_btn
+     {
         display: block;
     }
-    .dropdown_menu {
+    .dropdown_menu 
+    {
         display: block;
     }
 }
-@media (max-width: 576px) {
-    .dropdown_menu {
+@media (max-width: 576px) 
+{
+    .dropdown_menu 
+    {
         left: 2rem;
         width: unset;
     }
