@@ -48,5 +48,19 @@
 
 
 
+// function run(){
+//     console.log("chal gya");
+// }
 
 
+function changeimg(){
+        let output=document.getElementById('img1');
+        output.src="./Randomimg.jpg"
+
+
+}
+function previousimg(){   
+        let output=document.getElementById('img1');
+        output.src="./img2.jpg"
+
+}
